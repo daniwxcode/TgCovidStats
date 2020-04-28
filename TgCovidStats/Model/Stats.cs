@@ -16,7 +16,7 @@ namespace TgCovidStats.Model
 
         public override string ToString()
         {
-            return $"\n Actifs= {ActiveCases} -Guéris={Cured} - Décès ={Deaths} - Total ={Total}";
+            return $"Situation du {TimeInfo} : \n Actifs= {ActiveCases} -Guéris={Cured} - Décès ={Deaths} - Total ={Total}";
         }
     }
 }

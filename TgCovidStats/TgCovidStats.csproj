@@ -3,12 +3,32 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <Authors>Daniel WOAGOU</Authors>
+    <PackageIcon>ic_Covid.png</PackageIcon>
+    <Copyright>Daniel WOAGOU</Copyright>
+    <RepositoryUrl>https://github.com/daniwxcode/TgCovidStats</RepositoryUrl>
+    <RepositoryType>Git HUp</RepositoryType>
+    <PackageTags>Corona Virus, Togo</PackageTags>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>DanielKey.pfx</AssemblyOriginatorKeyFile>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="AngleSharp" Version="0.14.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\..\Downloads\ic_Covid (1)\res\mipmap-xxxhdpi\ic_Covid.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Workers\" />
   </ItemGroup>
 
 </Project>
