@@ -19,6 +19,7 @@ Ce Package nuget a pour source de données le site Officiel du Gouvernement Togo
             return $"\n Actifs= {ActiveCases} -Guéris={Cured} - Décès ={Deaths} - Total ={Total}";
         }
     }
+    
 
 
 
