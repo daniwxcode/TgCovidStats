@@ -4,7 +4,7 @@ Ce Package nuget a pour source de données le site Officiel du Gouvernement Togo
 ## https://covid19.gouv.tg/ 
 
 # Les Objets retournés par le Package : 
-## les Statisituqes 
+## les Statistiques 
     public class Stats
     {
         public uint ActiveCases { get; set; }
